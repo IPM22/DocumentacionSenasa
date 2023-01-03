@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ARS SeNaSa Docs",
+  title: "ARS Senasa",
   tagline: "Documentacion de Sistemas",
   url: "https://arssenasa.gob.do",
   baseUrl: "/",
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "ARS Senasa", // Usually your GitHub org/user name.
+  organizationName: "ARS SeNaSa", // Usually your GitHub org/user name.
   projectName: "Documentacion Senasa", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "ARS SeNaSa Docs",
+        title: "ARS Senasa",
         logo: {
           alt: "SenasaLogo",
           src: "img/SenasaLogo.png",
@@ -65,11 +65,11 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "api",
             position: "left",
-            label: "Tutorial",
+            label: "Documentación",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",

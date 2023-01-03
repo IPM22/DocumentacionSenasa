@@ -1,0 +1,8 @@
+{
+  "label": "Gestion de Medicamentos",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Un nuevo gestor externo de medicamentos se ha integrado a trabajar con SeNaSa como proveedor de las operaciones relacionadas al manejo de medicamentos y transacciones directas con los prestadores de servicio (Farmacias). La idea con esta integración es vincular los servicios de autorización de medicamentos de SeNaSa con la entidad externa Red de Farmacias Nacionales, usando herramientas que faciliten el enlace web a través de un puente de conexión con SeNaSa, para el caso se utilizarán Web-Apis."
+  }
+}
